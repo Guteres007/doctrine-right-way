@@ -31,6 +31,11 @@ class ArticleService
       return $this->entityManager->getRepository(Article::class)->findAll();
     }
 
+    public function getArticle($id)
+    {
+        return $this->entityManager->getRepository(Article::class)->find($id);
+    }
+
     public function deleteAll()
     {
         foreach ($this->getAll() as $article)
@@ -41,6 +46,13 @@ class ArticleService
         }
         $this->entityManager->flush();
 
+    }
+
+    public function deleteArticle($id)
+    {
+        $article = $this->entityManager->getRepository(Article::class)->find($id);
+        $this->entityManager->remove($article);
+        $this->entityManager->flush();
     }
 
 }

@@ -1,6 +1,8 @@
 {foreach $articles as $article}
     {$article->getTitle()}
     {$article->getBody()}
-
+    <a n:href="Article:show $article->getId() ">Show</a>
+    <br>
+    <a n:href="Article:delete $article->getId() ">Delete</a>
     <br>
 {/foreach}

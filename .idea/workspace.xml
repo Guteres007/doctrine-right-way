@@ -4,6 +4,7 @@
     <list default="true" id="4d5f186f-c898-4843-8f51-f25300c64889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Article/index.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Article/index.latte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/router/RouterFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/router/RouterFactory.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,33 +28,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="latte" value="77" />
+          <entry key="latte" value="196" />
           <entry key="neon" value="16" />
-          <entry key="php" value="568" />
+          <entry key="php" value="844" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Latte file" value="77" />
+          <entry key="Latte file" value="196" />
           <entry key="Neon" value="16" />
-          <entry key="PHP" value="530" />
+          <entry key="PHP" value="806" />
           <entry key="PLAIN_TEXT" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="latte" value="1" />
+          <entry key="latte" value="4" />
           <entry key="neon" value="2" />
-          <entry key="php" value="11" />
+          <entry key="php" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Latte file" value="1" />
+          <entry key="Latte file" value="4" />
           <entry key="Neon" value="2" />
-          <entry key="PHP" value="8" />
+          <entry key="PHP" value="13" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -61,46 +62,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/presenters/ArticlePresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="501">
+              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
               <folding>
                 <element signature="e#33#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/router/RouterFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding>
-                <element signature="e#33#74#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#73#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +78,40 @@
         <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/index.latte">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/router/RouterFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+              <folding>
+                <element signature="e#40#73#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ArticleModule/Entity/article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding>
+                <element signature="e#44#76#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,8 +127,9 @@
         <option value="$PROJECT_DIR$/app/ArticleModule/Entity/Article.php" />
         <option value="$PROJECT_DIR$/app/config/config.neon" />
         <option value="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Article/index.latte" />
         <option value="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Article/show.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Article/index.latte" />
         <option value="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" />
         <option value="$PROJECT_DIR$/app/router/RouterFactory.php" />
         <option value="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" />
@@ -258,7 +260,7 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="presenters" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="Homepage" type="462c0819:PsiDirectoryNode" />
+              <item name="Article" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nette-web" type="b2602c69:ProjectViewProjectNode" />
@@ -301,12 +303,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533482193385</updated>
       <workItem from="1533482194897" duration="1075000" />
-      <workItem from="1533483346501" duration="5631000" />
+      <workItem from="1533483346501" duration="8320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6706000" />
+    <option name="totallyTimeSpent" value="9395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -383,27 +385,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/show.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="e#33#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/kdyby/doctrine/src/Kdyby/Doctrine/Entities/Attributes/Identifier.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Homepage/default.latte">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/index.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/ArticleModule/Entity/article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="e#44#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/index.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="456">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="e#40#73#0#PHP" expanded="true" />
           </folding>
@@ -412,25 +441,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/router/RouterFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="345">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/ArticlePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#33#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
+        <state relative-caret-position="501">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding>
             <element signature="e#33#74#0#PHP" expanded="true" />
           </folding>

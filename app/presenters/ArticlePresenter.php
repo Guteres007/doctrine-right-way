@@ -19,11 +19,22 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     }
 
+    public function renderShow($id)
+    {
+        $this->template->article = $this->articleService->getArticle($id);
+    }
 
-    public function actionDelete()
+
+    public function actionDeleteAll()
     {
         $this->articleService->deleteAll();
         $this->redirect("Article:index");
+    }
+
+    public function actionDelete($id)
+    {
+       $this->articleService->deleteArticle($id);
+       $this->redirect("Article:index");
     }
 
 }
