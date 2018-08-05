@@ -62,4 +62,12 @@ class ArticleService
         $this->entityManager->persist($article);
         $this->entityManager->flush();
     }
+
+    public function updateArticle($id,$value)
+    {
+        $article = $this->getArticle($id);
+        $article->setTitle($value->title);
+        $article->setBody($value->body);
+        $this->entityManager->flush();
+    }
 }

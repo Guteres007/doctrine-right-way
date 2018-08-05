@@ -44,6 +44,15 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     }
 
+    public function renderUpdate($id)
+    {
+        $article = $this->articleService->getArticle($id);
+        $this['articleForm']->setDefaults([
+            "title"=>$article->getTitle(),
+            "body"=>$article->getBody(),
+           ]);
+    }
+
     public function createComponentArticleForm()
     {
         $form = new UI\Form;
@@ -56,8 +65,17 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     public function articleFormSucceeded( $form, $values)
     {
+        $articleId = $this->getParameter('id');
+
+        if ($articleId)
+        {
+           $this->articleService->updateArticle($articleId,$values);
+           $this->redirect('Article:index');
+        }
         $this->articleService->addArticle($values);
         $this->flashMessage('Přidáno.');
         $this->redirect('Article:index');
     }
+
+
 }
