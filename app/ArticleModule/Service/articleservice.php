@@ -42,7 +42,6 @@ class ArticleService
         {
 
                $this->entityManager->remove($article);
-               //můžeme volat až po foreachu?
         }
         $this->entityManager->flush();
 
@@ -55,4 +54,12 @@ class ArticleService
         $this->entityManager->flush();
     }
 
+    public function addArticle($values)
+    {
+        $article = new Article();
+        $article->setTitle($values->title);
+        $article->setBody($values->body);
+        $this->entityManager->persist($article);
+        $this->entityManager->flush();
+    }
 }
