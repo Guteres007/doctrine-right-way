@@ -13,7 +13,9 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     public function renderIndex()
     {
-      dump($this->articleService->getAll());
+
+      $this->template->articles = $this->articleService->getAll();
+
 
     }
 

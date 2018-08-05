@@ -13,7 +13,10 @@ class HomepagePresenter extends Nette\Application\UI\Presenter
 
     public function actionDefault()
     {
+        for ($i=0; $i < 20; $i++)
+        {
         $this->articleService->createArticle();
+        }
     }
 
 
