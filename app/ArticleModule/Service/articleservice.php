@@ -38,8 +38,8 @@ class ArticleService
 
                $this->entityManager->remove($article);
                //můžeme volat až po foreachu?
-               $this->entityManager->flush();
         }
+        $this->entityManager->flush();
 
     }
 

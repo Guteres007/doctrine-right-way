@@ -23,6 +23,7 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
     public function actionDelete()
     {
         $this->articleService->deleteAll();
+        $this->redirect("Article:index");
     }
 
 }
