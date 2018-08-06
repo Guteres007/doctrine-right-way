@@ -76,6 +76,7 @@ class ArticleService
         $article = $this->getArticle($id);
         $article->setTitle($value->title);
         $article->setBody($value->body);
+        $article->getTag()->setName($value->tagname);
         $this->entityManager->flush();
     }
 }

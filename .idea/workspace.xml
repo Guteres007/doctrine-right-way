@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5f186f-c898-4843-8f51-f25300c64889" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/TagModule/Entity/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TagModule/Entity/tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Article/show.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Article/show.latte" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,23 +28,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="9" />
-          <entry key="latte" value="265" />
+          <entry key="latte" value="285" />
           <entry key="neon" value="50" />
-          <entry key="php" value="2765" />
+          <entry key="php" value="2840" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Latte file" value="265" />
+          <entry key="Latte file" value="285" />
           <entry key="Neon" value="50" />
-          <entry key="PHP" value="2727" />
+          <entry key="PHP" value="2802" />
           <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="2" />
-          <entry key="latte" value="11" />
+          <entry key="latte" value="12" />
           <entry key="log" value="1" />
           <entry key="neon" value="5" />
           <entry key="php" value="36" />
@@ -53,7 +53,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="2" />
-          <entry key="Latte file" value="11" />
+          <entry key="Latte file" value="12" />
           <entry key="Neon" value="5" />
           <entry key="PHP" value="33" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/ArticlePresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+            <state relative-caret-position="390">
+              <caret line="77" column="40" lean-forward="true" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
               <folding>
                 <element signature="e#33#78#0#PHP" expanded="true" />
               </folding>
@@ -111,14 +111,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+            <state relative-caret-position="441">
+              <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
               <folding>
                 <element signature="e#44#79#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/show.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -132,7 +141,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/ArticleModule/Entity/Article.php" />
-        <option value="$PROJECT_DIR$/app/presenters/templates/Article/show.latte" />
         <option value="$PROJECT_DIR$/app/router/RouterFactory.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Article/index.latte" />
         <option value="$PROJECT_DIR$/app/TagModule/Service/articleservice.php" />
@@ -140,11 +148,12 @@
         <option value="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Article/new.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Article/update.latte" />
-        <option value="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" />
         <option value="$PROJECT_DIR$/app/TagModule/Service/tagservice.php" />
         <option value="$PROJECT_DIR$/app/TagModule/Entity/tag.php" />
         <option value="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" />
+        <option value="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" />
         <option value="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Article/show.latte" />
       </list>
     </option>
   </component>
@@ -355,12 +364,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533482193385</updated>
       <workItem from="1533482194897" duration="1075000" />
-      <workItem from="1533483346501" duration="25613000" />
+      <workItem from="1533483346501" duration="27395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26688000" />
+    <option name="totallyTimeSpent" value="28470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -498,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/show.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/TagModule/Entity/tag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -537,8 +539,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/ArticlePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+        <state relative-caret-position="390">
+          <caret line="77" column="40" lean-forward="true" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
           <folding>
             <element signature="e#33#78#0#PHP" expanded="true" />
           </folding>
@@ -547,11 +549,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+        <state relative-caret-position="441">
+          <caret line="78" column="53" lean-forward="true" selection-start-line="78" selection-start-column="53" selection-end-line="78" selection-end-column="53" />
           <folding>
             <element signature="e#44#79#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/show.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>

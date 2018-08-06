@@ -54,6 +54,7 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
         $this['articleForm']->setDefaults([
             "title"=>$article->getTitle(),
             "body"=>$article->getBody(),
+            "tagname"=>$article->getTag()->getName(),
            ]);
     }
 
