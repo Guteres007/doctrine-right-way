@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Presenters;
-use ArticleModule\Service\ArticleService;
+use App\ArticleModule\Service\ArticleService;
+use App\TagModule\Service\TagService;
 use Nette;
 use Nette\Application\UI;
 
@@ -11,6 +12,9 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     /** @var ArticleService @inject */
     public $articleService;
+
+    /** @var TagService @inject */
+    public $tagService;
 
     public function renderIndex()
     {
@@ -58,6 +62,7 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
         $form = new UI\Form;
         $form->addText("title", "Title:");
         $form->addText("body", "Body:");
+        $form->addText("tagname", "slug:");
         $form->addSubmit("submit", "Odeslat");
         $form->onSuccess[] = [$this, 'articleFormSucceeded'];
         return $form;
@@ -72,7 +77,10 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
            $this->articleService->updateArticle($articleId,$values);
            $this->redirect('Article:index');
         }
+
+        //vytvořím article s tagem
         $this->articleService->addArticle($values);
+
         $this->flashMessage('Přidáno.');
         $this->redirect('Article:index');
     }

@@ -12,7 +12,8 @@ session:
 
 
 services:
-    - ArticleModule\Service\ArticleService
+    - App\ArticleModule\Service\ArticleService
+    - App\TagModule\Service\TagService
     router: App\RouterFactory::createRouter
 
 
@@ -25,6 +26,7 @@ extensions:
 doctrine:
     user: root
     password: root
-    dbname: blog
+    dbname: nette_web
     host: localhost
-
+    metadata:
+    		App: %appDir%

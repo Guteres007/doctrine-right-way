@@ -1,7 +1,9 @@
 <?php
-namespace ArticleModule\Service;
+namespace App\ArticleModule\Service;
 
-use ArticleModule\Entity\Article;
+use App\ArticleModule\Entity\Article;
+use App\TagModule\Entity\Tag;
+
 use Kdyby\Doctrine\EntityManager;
 
 class ArticleService
@@ -16,7 +18,7 @@ class ArticleService
     {
         $this->entityManager = $entityManager;
     }
-
+//tohle platí jen pro jednu část na homepage
     public function createArticle()
     {
         $article = new Article;
@@ -59,8 +61,12 @@ class ArticleService
         $article = new Article();
         $article->setTitle($values->title);
         $article->setBody($values->body);
-        $this->entityManager->persist($article);
+        $tag = new Tag();
+        $tag->setArticle($article);
+        $tag->setName($values->tagname);
+        $this->entityManager->persist($article,$tag);
         $this->entityManager->flush();
+
     }
 
     public function updateArticle($id,$value)

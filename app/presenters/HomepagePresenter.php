@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Presenters;
-use ArticleModule\Service\ArticleService;
+use App\ArticleModule\Service\ArticleService;
 use Nette;
 
 

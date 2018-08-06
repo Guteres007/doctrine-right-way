@@ -1,6 +1,7 @@
 <?php
 
-namespace ArticleModule\Entity;
+namespace App\ArticleModule\Entity;
+
 
     use Doctrine\ORM\Mapping as ORM;
     use Kdyby\Doctrine\Entities\Attributes\Identifier;
@@ -12,6 +13,10 @@ namespace ArticleModule\Entity;
     class Article
     {
         use Identifier;
+
+
+
+
 
           /**
            * @ORM\Column(type="string")
@@ -57,5 +62,20 @@ namespace ArticleModule\Entity;
             $this->body = $body;
         }
 
+        /**
+         * @param string $tag
+         */
+        public function setTag($tag)
+        {
+            $this->tag = $tag;
+        }
+
+        /**
+         * @return mixed
+         */
+        public function getTag()
+        {
+            return $this->tag;
+        }
 
     }
