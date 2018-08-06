@@ -52,7 +52,8 @@ class ArticleService
     public function deleteArticle($id)
     {
         $article = $this->entityManager->getRepository(Article::class)->find($id);
-        $this->entityManager->remove($article);
+        $tag = $article->getTag();
+        $this->entityManager->remove($article,$tag);
         $this->entityManager->flush();
     }
 
