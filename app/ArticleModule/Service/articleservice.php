@@ -58,12 +58,14 @@ class ArticleService
 
     public function addArticle($values)
     {
+        $tag = new Tag();
+        $tag->setName($values->tagname);
+
         $article = new Article();
         $article->setTitle($values->title);
         $article->setBody($values->body);
-        $tag = new Tag();
-        $tag->setArticle($article);
-        $tag->setName($values->tagname);
+        $article->setTag($tag);
+
         $this->entityManager->persist($article,$tag);
         $this->entityManager->flush();
 

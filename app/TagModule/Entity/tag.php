@@ -13,12 +13,6 @@ namespace App\TagModule\Entity;
     {
         use Identifier;
 
-        /**
-         * One Tag has One Article.
-         * @ORM\OneToOne(targetEntity="App\ArticleModule\Entity\Article")
-         * @ORM\JoinColumn(name="article_id", referencedColumnName="id")
-         */
-        private $article;
 
 
 
@@ -47,14 +41,6 @@ namespace App\TagModule\Entity;
             $this->name = $name;
         }
 
-        public function getArticle()
-        {
-            return $this->article;
-        }
 
-        public function setArticle($article)
-        {
-            $this->article = $article;
-        }
 
     }

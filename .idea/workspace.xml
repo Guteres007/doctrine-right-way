@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d5f186f-c898-4843-8f51-f25300c64889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/TagModule/Entity/tag.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/TagModule/Service/tagservice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.neon" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/config.neon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Article/new.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Article/new.latte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/presenters/templates/Article/update.latte" beforeDir="false" afterPath="$PROJECT_DIR$/app/presenters/templates/Article/update.latte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/TagModule/Entity/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/TagModule/Entity/tag.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +30,14 @@
           <entry key="dummy" value="9" />
           <entry key="latte" value="265" />
           <entry key="neon" value="50" />
-          <entry key="php" value="2719" />
+          <entry key="php" value="2765" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Latte file" value="265" />
           <entry key="Neon" value="50" />
-          <entry key="PHP" value="2681" />
+          <entry key="PHP" value="2727" />
           <entry key="PLAIN_TEXT" value="47" />
         </counts>
       </usages-collector>
@@ -54,7 +47,7 @@
           <entry key="latte" value="11" />
           <entry key="log" value="1" />
           <entry key="neon" value="5" />
-          <entry key="php" value="33" />
+          <entry key="php" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -62,7 +55,7 @@
           <entry key="HTML" value="2" />
           <entry key="Latte file" value="11" />
           <entry key="Neon" value="5" />
-          <entry key="PHP" value="30" />
+          <entry key="PHP" value="33" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -82,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/TagModule/Service/tagservice.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -95,10 +88,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/ArticleModule/Entity/article.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="e#49#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/TagModule/Entity/tag.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#44#76#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+            <state relative-caret-position="321">
+              <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
               <folding>
                 <element signature="e#44#79#0#PHP" expanded="true" />
               </folding>
@@ -121,13 +138,13 @@
         <option value="$PROJECT_DIR$/app/TagModule/Service/articleservice.php" />
         <option value="$PROJECT_DIR$/app/config/config.neon" />
         <option value="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
-        <option value="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" />
-        <option value="$PROJECT_DIR$/app/TagModule/Entity/tag.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Article/new.latte" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Article/update.latte" />
-        <option value="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" />
         <option value="$PROJECT_DIR$/app/presenters/ArticlePresenter.php" />
         <option value="$PROJECT_DIR$/app/TagModule/Service/tagservice.php" />
+        <option value="$PROJECT_DIR$/app/TagModule/Entity/tag.php" />
+        <option value="$PROJECT_DIR$/app/ArticleModule/Entity/article.php" />
+        <option value="$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php" />
       </list>
     </option>
   </component>
@@ -338,12 +355,12 @@
       <option name="presentableId" value="Default" />
       <updated>1533482193385</updated>
       <workItem from="1533482194897" duration="1075000" />
-      <workItem from="1533483346501" duration="25027000" />
+      <workItem from="1533483346501" duration="25613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26102000" />
+    <option name="totallyTimeSpent" value="26688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
@@ -467,16 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TagModule/Entity/tag.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding>
-            <element signature="e#44#76#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/templates/Article/new.latte">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -498,22 +505,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/TagModule/Entity/tag.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#44#76#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/ArticleModule/Entity/article.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        <state relative-caret-position="201">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#49#81#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
+    <entry file="file://$PROJECT_DIR$/app/TagModule/Service/tagservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="65" column="40" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="40" />
+        <state relative-caret-position="405">
+          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
           <folding>
-            <element signature="e#44#79#0#PHP" expanded="true" />
+            <element signature="e#36#65#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,12 +545,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/TagModule/Service/tagservice.php">
+    <entry file="file://$PROJECT_DIR$/app/ArticleModule/Service/articleservice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="321">
+          <caret line="66" column="31" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
           <folding>
-            <element signature="e#36#65#0#PHP" expanded="true" />
+            <element signature="e#44#79#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

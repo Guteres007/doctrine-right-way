@@ -17,6 +17,15 @@ namespace App\ArticleModule\Entity;
 
 
 
+        /**
+         * One Article has One Tag.
+         * @ORM\OneToOne(targetEntity="App\TagModule\Entity\Tag")
+         * @ORM\JoinColumn(name="tag_id", referencedColumnName="id")
+         */
+        private $tag;
+
+
+
 
           /**
            * @ORM\Column(type="string")
