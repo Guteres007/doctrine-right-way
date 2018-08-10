@@ -74,7 +74,7 @@ namespace App\ArticleModule\Entity;
         /**
          * @param string $tag
          */
-        public function setTag($tag)
+        public function setTag(\App\TagModule\Entity\Tag $tag = null)
         {
             $this->tag = $tag;
         }
