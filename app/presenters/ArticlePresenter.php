@@ -26,8 +26,10 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     }
 
-
-    public function createComponentArticle()
+    /**
+     * @return ArticleControl
+     */
+    public function createComponentArticle(): ArticleControl
     {
         $article = new ArticleControl();
         return $article;
