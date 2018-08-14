@@ -7,6 +7,7 @@ use Nette;
 use Nette\Application\UI;
 
 
+
 class ArticlePresenter extends Nette\Application\UI\Presenter
 {
 
@@ -32,14 +33,21 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     public function actionDeleteAll()
     {
+
         $this->articleService->deleteAll();
         $this->redirect("Article:index");
     }
 
-    public function actionDelete($id)
+    public function handleDelete($id)
     {
-       $this->articleService->deleteArticle($id);
-       $this->redirect("Article:index");
+       if($this->isAjax())
+        {
+            $this->articleService->deleteArticle($id);
+            $this->template->articles = $this->articleService->getAll();
+            $this->payload->message = 'Success';
+            $this->redrawControl('articles');
+        }
+
     }
 
     public function renderNew()

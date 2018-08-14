@@ -21,10 +21,15 @@ class ArticleService
 //tohle platí jen pro jednu část na homepage
     public function createArticle()
     {
-        $article = new Article;
-        $article->setTitle('Name of title');
-        $article->setBody('Name of body');
-        $this->entityManager->persist($article);
+        $tag = new Tag();
+        $tag->setName("tag");
+
+        $article = new Article();
+        $article->setTitle("title");
+        $article->setBody("body");
+        $article->setTag($tag);
+
+        $this->entityManager->persist($article,$tag);
         $this->entityManager->flush();
     }
 

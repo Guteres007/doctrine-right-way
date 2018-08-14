@@ -1,11 +1,18 @@
-{foreach $articles as $article}
-    {$article->getTitle()}
-    {$article->getBody()}
-    <br>
-    <a n:href="Article:show $article->getId() ">Show</a>
-    <br>
-    <a n:href="Article:delete $article->getId() ">Delete</a>
-    <br>
-    <a n:href="Article:update $article->getId() ">Update</a>
-    <br>
-{/foreach}
+{block content}
+<div n:snippet="articles">
+    {foreach $articles as $article}
+
+            {$article->getTitle()}
+            {$article->getBody()}
+            <br>
+            <a n:href="Article:show $article->getId() ">Show</a>
+            <br>
+            <a class="ajax" n:href="delete! $article->getId() ">Delete</a>
+            <br>
+            <a n:href="Article:update $article->getId() ">Update</a>
+            <br>
+
+    {/foreach}
+</div>
+
+{/block}
