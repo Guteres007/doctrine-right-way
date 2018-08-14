@@ -5,6 +5,7 @@ use App\ArticleModule\Service\ArticleService;
 use App\TagModule\Service\TagService;
 use Nette;
 use Nette\Application\UI;
+use App\Components\Article\ArticleControl;
 
 
 
@@ -25,6 +26,15 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     }
 
+
+    public function createComponentArticle()
+    {
+        $article = new ArticleControl();
+        return $article;
+    }
+
+
+
     public function renderShow($id)
     {
         $this->template->article = $this->articleService->getArticle($id);
@@ -33,7 +43,6 @@ class ArticlePresenter extends Nette\Application\UI\Presenter
 
     public function actionDeleteAll()
     {
-
         $this->articleService->deleteAll();
         $this->redirect("Article:index");
     }
